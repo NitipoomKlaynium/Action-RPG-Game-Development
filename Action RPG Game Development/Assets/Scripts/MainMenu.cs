@@ -4,28 +4,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
-{
+public class MainMenu : MonoBehaviour {
     // Start is called before the first frame update
-    public void Start()
-    {
+    public void Start() {
         
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         
     }
     
-    public void Play()
-    {
+    public void Play() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         UnityEngine.Debug.Log("Play Game!");
     }
 
-    public void Quit()
-    {
+    public void Quit() {
         Application.Quit();
         UnityEngine.Debug.Log("Quit Game!");
     }
