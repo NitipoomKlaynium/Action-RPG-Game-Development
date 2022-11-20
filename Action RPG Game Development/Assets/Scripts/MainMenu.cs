@@ -17,11 +17,11 @@ public class MainMenu : MonoBehaviour {
     
     public void Play() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        UnityEngine.Debug.Log("Play Game!");
+        UnityEngine.Debug.Log("Log : Play Game!");
     }
 
     public void Quit() {
         Application.Quit();
-        UnityEngine.Debug.Log("Quit Game!");
+        UnityEngine.Debug.Log("Log : Quit Game!");
     }
 }
